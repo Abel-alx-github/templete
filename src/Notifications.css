@@ -1,0 +1,13 @@
+.Notifications {
+    margin: 5px;
+    padding: 5px;
+}
+
+ul [data-priority="default"] {
+    color: blue;
+}
+
+ul [data-priority="urgent"],
+ul :nth-child(3) {
+    color: red;
+}
